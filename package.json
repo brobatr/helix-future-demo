@@ -1,5 +1,5 @@
 {
-  "name": "@adobe/helix-project-boilerplate",
+  "name": "@mboucher/helix-consonant-template",
   "private": true,
   "version": "1.0.0",
   "description": "Starter project for Adobe Helix",
@@ -8,13 +8,14 @@
     "test:watch": "npm test -- --watch",
     "lint:js": "eslint .",
     "lint:css": "stylelint 'blocks/**/*.css' 'styles/*.css'",
-    "lint": "npm run lint:js && npm run lint:css"
+    "lint": "npm run lint:js && npm run lint:css",
+    "dev": "hlx up"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adobe/helix-project-boilerplate.git"
+    "url": "git+https://github.com/brobatr/helix-future-demo.git"
   },
-  "author": "Adobe",
+  "author": "Rob Freeman",
   "license": "Apache License 2.0",
   "bugs": {
     "url": "https://github.com/adobe/helix-project-boilerplate/issues"
